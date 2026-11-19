@@ -1,0 +1,37 @@
+{
+  "n_main_runs": 8,
+  "max_public_force_error": 6.611000896841274e-15,
+  "max_trace_error": 8.215650382226158e-15,
+  "min_density_eigenvalue": 0.0,
+  "max_public_density_error": 8.448433271380585e-15,
+  "max_public_velocity_error": 1.2710919193388828e-16,
+  "max_public_position_error": 2.151198569461397e-14,
+  "tolerance_checks": [
+    {
+      "geometry": "axial6",
+      "architecture": "common",
+      "velocity_error": 7.305778791331757e-14,
+      "position_error": 7.1405847177180356e-12
+    },
+    {
+      "geometry": "axial6",
+      "architecture": "offset_pairs",
+      "velocity_error": 4.793809765989213e-13,
+      "position_error": 2.349179236006353e-10
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "common",
+      "velocity_error": 3.915636827515685e-12,
+      "position_error": 2.784394867922528e-10
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "offset_pairs",
+      "velocity_error": 1.2060726835021243e-13,
+      "position_error": 1.3517690167135434e-10
+    }
+  ],
+  "coarse_max_momentum_error": 0.0001987879566118714,
+  "fine_max_momentum_error": 2.187285270913475e-06
+}

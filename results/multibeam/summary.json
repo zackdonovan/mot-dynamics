@@ -1,0 +1,130 @@
+{
+  "n_steady_states": 1024,
+  "max_residual": 6.49583716980418e-15,
+  "max_trace_error": 3.332064601572241e-15,
+  "max_hermiticity_error": 7.311852361412522e-13,
+  "minimum_density_eigenvalue": -4.969185587316535e-14,
+  "near_zero_checks": [
+    {
+      "geometry": "axial6",
+      "max_paired_zero_field_force_change": 2.0699926555640077e-08
+    },
+    {
+      "geometry": "oblique8",
+      "max_paired_zero_field_force_change": 4.1297073797890375e-08
+    }
+  ],
+  "paired_field_response": [
+    {
+      "geometry": "axial6",
+      "field": [
+        0.1,
+        0,
+        0
+      ],
+      "mean_delta_force": [
+        -0.01885559056595542,
+        0.003398066565413772,
+        -0.00048326909703249617
+      ],
+      "standard_error": [
+        0.003182966115958022,
+        0.003113034917871985,
+        0.0031775909994703937
+      ],
+      "rate_delta_force": [
+        -0.0028618489036334026,
+        0.0,
+        -3.8163916471489756e-17
+      ]
+    },
+    {
+      "geometry": "axial6",
+      "field": [
+        0,
+        0,
+        0.1
+      ],
+      "mean_delta_force": [
+        0.0017019639125847553,
+        -0.002319475103404203,
+        0.013085428489937394
+      ],
+      "standard_error": [
+        0.0028262937199057194,
+        0.0030466098489770953,
+        0.002657397379943834
+      ],
+      "rate_delta_force": [
+        0.0,
+        0.0,
+        0.002861848903633486
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "field": [
+        0.1,
+        0,
+        0
+      ],
+      "mean_delta_force": [
+        -0.015523178658719446,
+        -0.005782330682885983,
+        -0.005271575226166287
+      ],
+      "standard_error": [
+        0.002819008668976683,
+        0.00301963409495487,
+        0.003180559996441151
+      ],
+      "rate_delta_force": [
+        -0.00286184890363323,
+        -0.0007154622259083017,
+        -0.000715462225908319
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "field": [
+        0,
+        0,
+        0.1
+      ],
+      "mean_delta_force": [
+        -0.0012429498000531307,
+        -0.0030721065096436222,
+        0.012277142157925266
+      ],
+      "standard_error": [
+        0.002950353115216923,
+        0.0025629719638002005,
+        0.0034322601339701504
+      ],
+      "rate_delta_force": [
+        -0.0007154622259082912,
+        -0.0007154622259082912,
+        0.00143092445181658
+      ]
+    }
+  ],
+  "checks": {
+    "checks": [
+      {
+        "geometry": "axial6",
+        "global_phase_force_error": 1.1476896955253368e-15,
+        "global_phase_population_error": 3.885780586188048e-16,
+        "time_density_error": 1.9134296357018512e-14,
+        "time_success": true
+      },
+      {
+        "geometry": "oblique8",
+        "global_phase_force_error": 5.947890983235077e-15,
+        "global_phase_population_error": 3.164135620181696e-15,
+        "time_density_error": 6.888414283008862e-09,
+        "time_success": true
+      }
+    ],
+    "runtime_s": 104.27361679077148
+  }
+}

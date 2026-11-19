@@ -1,0 +1,25 @@
+{
+  "production_rate_cases": 40,
+  "max_production_relative_error": 9.034532199218109e-14,
+  "toy_metrics": {
+    "n_cases": 57,
+    "runtime_s": 9.871378421783447,
+    "max_rate_analytic_error": 4.163336342344337e-17,
+    "max_single_obe_exact_error": 3.300441890272121e-10,
+    "max_steady_residual": 5.784026897858858e-09,
+    "max_tail_force_difference": 7.091716380802637e-10,
+    "max_trace_error": 1.3322676295501878e-15,
+    "min_density_eigenvalue": -3.1658703436577173e-17
+  },
+  "max_toy_rotation_absolute_spread": 2.0876597672803143e-10,
+  "max_zero_steady_residual": 5.957430926695961e-15,
+  "max_zero_time_evolution_density_error": 5.449158830774251e-09,
+  "nearzero_rate_z_range": [
+    0.013589806775031764,
+    0.027777777530862927
+  ],
+  "nearzero_obe_z_range": [
+    0.02777777753085285,
+    0.027777777777772038
+  ]
+}

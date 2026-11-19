@@ -1,0 +1,64 @@
+{
+  "paired_frozen_comparisons": [
+    {
+      "geometry": "axial6",
+      "position_name": "origin",
+      "final_velocity_difference": 0.00024001274876850475,
+      "max_field_change": 0.003515197879227806,
+      "max_relative_intensity_change": 2.234263509204304e-06
+    },
+    {
+      "geometry": "axial6",
+      "position_name": "off_axis",
+      "final_velocity_difference": 0.0009026643803743211,
+      "max_field_change": 0.006144239267405745,
+      "max_relative_intensity_change": 0.0031377925365374537
+    },
+    {
+      "geometry": "oblique8",
+      "position_name": "origin",
+      "final_velocity_difference": 0.00040563419443274425,
+      "max_field_change": 0.0031019590003788116,
+      "max_relative_intensity_change": 1.7171026353013374e-06
+    },
+    {
+      "geometry": "oblique8",
+      "position_name": "off_axis",
+      "final_velocity_difference": 0.00012666063261356967,
+      "max_field_change": 0.006042808253621414,
+      "max_relative_intensity_change": 0.0024478946167210136
+    }
+  ],
+  "tolerance_checks": [
+    {
+      "geometry": "axial6",
+      "position_name": "origin",
+      "velocity_error": 5.5713912707562244e-14,
+      "displacement_error_m": 8.554281890353049e-18
+    },
+    {
+      "geometry": "axial6",
+      "position_name": "off_axis",
+      "velocity_error": 2.1064439726171163e-12,
+      "displacement_error_m": 8.613028178087566e-17
+    },
+    {
+      "geometry": "oblique8",
+      "position_name": "origin",
+      "velocity_error": 7.079048513213502e-13,
+      "displacement_error_m": 2.711942128724226e-17
+    },
+    {
+      "geometry": "oblique8",
+      "position_name": "off_axis",
+      "velocity_error": 9.33780951918286e-13,
+      "displacement_error_m": 6.821133972966536e-17
+    }
+  ],
+  "max_public_force_error": 5.790486538935324e-08,
+  "max_public_hamiltonian_error": 7.8311233281721e-12,
+  "max_trace_error": 1.5765166949677223e-14,
+  "min_eigenvalue": 0.0,
+  "max_public_velocity_error": 2.4793989914569473e-09,
+  "max_public_displacement_error_m": 1.5674078292567396e-14
+}

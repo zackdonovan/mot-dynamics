@@ -1,0 +1,34 @@
+{
+  "quadrature_checks": [
+    {
+      "position_name": "origin",
+      "relative_count_change": 0.00015439329189770312,
+      "covariance_change_norm": 2.198494295680365e-08
+    },
+    {
+      "position_name": "off_axis",
+      "relative_count_change": 4.116529779318867e-05,
+      "covariance_change_norm": 1.5389927295631463e-08
+    }
+  ],
+  "max_rate_closure_error": 1.1102230246251565e-16,
+  "min_tensor_eigenvalue": 0.0,
+  "long_run_wall_seconds": [
+    23.843696355819702,
+    25.17445397377014,
+    22.124395847320557,
+    24.92102885246277
+  ],
+  "estimated_75ms_single_trajectory_hours": [
+    2.3662086178129944,
+    2.4982707820355334,
+    2.195588105828996,
+    2.473121296106039
+  ],
+  "estimated_512_trajectory_serial_days": [
+    50.47911718001055,
+    53.29644335009138,
+    46.83921292435192,
+    52.75992098359551
+  ]
+}

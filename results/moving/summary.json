@@ -1,0 +1,234 @@
+{
+  "n_main_runs": 24,
+  "max_public_pylcp_density_error": 1.8229120611124562e-11,
+  "max_hamiltonian_error": 4.388541835720876e-16,
+  "max_trace_error": 1.199040866595169e-14,
+  "min_density_eigenvalue": 0.0,
+  "max_half_tail_window_change": 0.0186603663075885,
+  "checks": [
+    {
+      "geometry": "axial6",
+      "architecture": "common",
+      "check": "longer_window",
+      "force_difference_norm": 0.0003417230118593553,
+      "reference_force": [
+        -0.023410917243907623,
+        -0.04858868833890076,
+        -0.03762803147422575
+      ],
+      "checked_force": [
+        -0.023241771110889046,
+        -0.04883736732851401,
+        -0.03779027500304593
+      ]
+    },
+    {
+      "geometry": "axial6",
+      "architecture": "common",
+      "check": "tighter_tolerance",
+      "force_difference_norm": 6.052558423191146e-12,
+      "reference_force": [
+        -0.023410917243907623,
+        -0.04858868833890076,
+        -0.03762803147422575
+      ],
+      "checked_force": [
+        -0.023410917244097326,
+        -0.04858868834332664,
+        -0.03762803147834995
+      ]
+    },
+    {
+      "geometry": "axial6",
+      "architecture": "offset_pairs",
+      "check": "longer_window",
+      "force_difference_norm": 0.0002864813906487077,
+      "reference_force": [
+        -0.0012844134323202355,
+        -0.001453106751547453,
+        -0.0015991468890770473
+      ],
+      "checked_force": [
+        -0.0011375862352957413,
+        -0.0012148369691467745,
+        -0.0016603095590374177
+      ]
+    },
+    {
+      "geometry": "axial6",
+      "architecture": "offset_pairs",
+      "check": "tighter_tolerance",
+      "force_difference_norm": 1.881052699066476e-12,
+      "reference_force": [
+        -0.0012844134323202355,
+        -0.001453106751547453,
+        -0.0015991468890770473
+      ],
+      "checked_force": [
+        -0.0012844134325083604,
+        -0.001453106753387981,
+        -0.0015991468887373045
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "common",
+      "check": "longer_window",
+      "force_difference_norm": 0.002841118726481176,
+      "reference_force": [
+        -0.025321065785481153,
+        -0.04715236986545436,
+        -0.04073778864485021
+      ],
+      "checked_force": [
+        -0.02506987849190618,
+        -0.049481427619640125,
+        -0.0423453801785352
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "common",
+      "check": "tighter_tolerance",
+      "force_difference_norm": 7.133422978363621e-12,
+      "reference_force": [
+        -0.025321065785481153,
+        -0.04715236986545436,
+        -0.04073778864485021
+      ],
+      "checked_force": [
+        -0.02532106579230544,
+        -0.04715236986697223,
+        -0.04073778864343215
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "offset_pairs",
+      "check": "longer_window",
+      "force_difference_norm": 0.00024802141957287277,
+      "reference_force": [
+        -0.003217277584104522,
+        -0.00013467796613074375,
+        -0.00023622645593259322
+      ],
+      "checked_force": [
+        -0.0030242457207883436,
+        -0.00025487292438603127,
+        -0.0003352542112420869
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "offset_pairs",
+      "check": "tighter_tolerance",
+      "force_difference_norm": 1.2465664779695306e-11,
+      "reference_force": [
+        -0.003217277584104522,
+        -0.00013467796613074375,
+        -0.00023622645593259322
+      ],
+      "checked_force": [
+        -0.003217277573557954,
+        -0.0001346779706802443,
+        -0.00023622645108855076
+      ]
+    },
+    {
+      "geometry": "axial6",
+      "architecture": "common",
+      "check": "stationary_direct_steady",
+      "force_difference_norm": 4.906629145473911e-06,
+      "reference_force": [
+        0.049035223753139325,
+        -0.06921289641092716,
+        -0.06943929075617045
+      ],
+      "checked_force": [
+        0.04903889731577517,
+        -0.06921453826006094,
+        -0.06944209865192237
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "common",
+      "check": "stationary_direct_steady",
+      "force_difference_norm": 3.51869200687586e-08,
+      "reference_force": [
+        0.020704572488923757,
+        -0.08092354539681137,
+        -0.14530149110224902
+      ],
+      "checked_force": [
+        0.0207045848377789,
+        -0.08092356386305534,
+        -0.14530151839002933
+      ]
+    },
+    {
+      "geometry": "axial6",
+      "architecture": "common",
+      "check": "quadrature_dt_0.5",
+      "force_difference_norm": 7.596940336674427e-07,
+      "reference_force": [
+        -0.023410917243907623,
+        -0.04858868833890076,
+        -0.03762803147422575
+      ],
+      "checked_force": [
+        -0.023410599612400135,
+        -0.04858800852917734,
+        -0.037628150234447155
+      ]
+    },
+    {
+      "geometry": "axial6",
+      "architecture": "offset_pairs",
+      "check": "quadrature_dt_0.5",
+      "force_difference_norm": 1.1061665839147281e-06,
+      "reference_force": [
+        -0.0012844134323202355,
+        -0.001453106751547453,
+        -0.0015991468890770473
+      ],
+      "checked_force": [
+        -0.0012839389700175174,
+        -0.0014530550784854388,
+        -0.0015981489813010825
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "common",
+      "check": "quadrature_dt_0.5",
+      "force_difference_norm": 1.3491368198010039e-06,
+      "reference_force": [
+        -0.025321065785481153,
+        -0.04715236986545436,
+        -0.04073778864485021
+      ],
+      "checked_force": [
+        -0.02532201722703738,
+        -0.04715163911219047,
+        -0.04073717145056076
+      ]
+    },
+    {
+      "geometry": "oblique8",
+      "architecture": "offset_pairs",
+      "check": "quadrature_dt_0.5",
+      "force_difference_norm": 1.373161377080751e-05,
+      "reference_force": [
+        -0.003217277584104522,
+        -0.00013467796613074375,
+        -0.00023622645593259322
+      ],
+      "checked_force": [
+        -0.0032290786525377866,
+        -0.00012874902620395046,
+        -0.00023246618042027921
+      ]
+    }
+  ]
+}
